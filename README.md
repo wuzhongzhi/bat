@@ -8,7 +8,7 @@ Java真实实战bat面试
 	2 cp 的算法有哪些？讲讲 undolog 和 redolog
 
 
-	3 redis 数据结构的实现原理
+	3 redis 数据结构的实现原理？rdb 和 aop 的原理和场景
 
 	4 项目中的亮点
 ```
