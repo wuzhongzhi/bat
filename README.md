@@ -5,7 +5,7 @@ Java真实实战bat面试
 ```
 	1 事务隔离级别的原理
 
-	2 cp 的算法 undolog 和 redolog
+	2 cp 的算法有哪些？讲讲 undolog 和 redolog
 
 
 	3 redis 数据结构的实现原理
