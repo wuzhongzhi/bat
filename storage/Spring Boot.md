@@ -81,7 +81,7 @@ Boot的Web起步依赖就好了。
 
 使用Spring Boot时，我们只需引入对应的Starters，Spring
 Boot启动时便会自动加载相关依赖，配置相应的初始化参数，以最快捷、简单的形式对第三方软件进行集成，这便是Spring Boot的自动配置功能。Spring
-Boot实现该运作机制锁涉及的核心部分如下图所示：
+Boot实现该运作机制涉及的核心部分如下图所示：
 
 ![](https://uploadfiles.nowcoder.com/images/20220224/4107856_1645694273137/4C6D51AEA1E10E3717A8BE4AE88B6F79)
 
