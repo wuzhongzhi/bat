@@ -265,7 +265,7 @@
 ['6.5 MySQL主从同步是如何实现的？']
 ```
 ## web开发
-### [Spring Boot ](/storage/SpringBoot.md)
+### [Spring Boot ](/storage/Spring%20Boot.md)
 ```
 ['1.1 说说你对Spring Boot的理解']
 ['1.2 Spring Boot Starter有什么用？']
@@ -296,7 +296,7 @@
 ['2.18 Spring的事务如何配置，常用注解有哪些？']
 ['2.19 说一说你对声明式事务的理解']
 ```
-### [Spring MVC ](/storage/SpringMVC.md)
+### [Spring MVC ](/storage/Spring%20MVC.md)
 ```
 ['3.1 什么是MVC？']
 ['3.2 DAO层是做什么的？']
@@ -305,7 +305,7 @@
 ['3.5 介绍一下Spring MVC的拦截器']
 ['3.6 怎么去做请求拦截？']
 ```
-### [MyBatis & 其他 ](/storage/MyBatis&其他.md)
+### [MyBatis & 其他 ](/storage/MyBatis%20&%20其他.md)
 ```
 ['4.1 谈谈MyBatis和JPA的区别']
 ['4.2 MyBatis输入输出支持的类型有哪些？']
@@ -362,7 +362,7 @@
 ['1.27 多台Redis抗高并发访问该怎么设计？']
 ['1.28 如果并发量超过30万，怎么设计Redis架构？']
 ```
-### [消息队列 & 搜索引擎 ](/storage/消息队列&搜索引擎.md)
+### [消息队列 & 搜索引擎 ](/storage/消息队列%20&%20搜索引擎.md)
 ```
 ['2.1 MQ有什么用？']
 ['2.2 说一说生产者与消费者模式']
