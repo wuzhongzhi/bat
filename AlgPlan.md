@@ -133,101 +133,100 @@ DP 问题可能很难掌握，而提高它们的最佳方法是......你猜对�
 ## 新加披shopee算法题
 题目|频度
 ---|---|
-[ 160. 相交链表 ] ( https://leetcode-cn.com/problems/intersection-of-two-linked-lists ) |  11
-[ 704. 二分查找 ] ( https://leetcode-cn.com/problems/binary-search ) |  9
-[ 1. 两数之和 ] ( https://leetcode-cn.com/problems/two-sum ) |  8
-[ 232. 用栈实现队列 ] ( https://leetcode-cn.com/problems/implement-queue-using-stacks ) |  8
-[ 206. 反转链表 ] ( https://leetcode-cn.com/problems/reverse-linked-list ) |  7
-[ 141. 环形链表 ] ( https://leetcode-cn.com/problems/linked-list-cycle ) |  6
-[ 94. 二叉树的中序遍历 ] ( https://leetcode-cn.com/problems/binary-tree-inorder-traversal ) |  6
-[ 15. 三数之和 ] ( https://leetcode-cn.com/problems/3sum ) |  5
-[ 102. 二叉树的层序遍历 ] ( https://leetcode-cn.com/problems/binary-tree-level-order-traversal ) |  5
-[ 53. 最大子序和 ] ( https://leetcode-cn.com/problems/maximum-subarray ) |  5
-[ 剑指 Offer 10- I. 斐波那契数列 ] ( https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof ) |  5
-[ 226. 翻转二叉树 ] ( https://leetcode-cn.com/problems/invert-binary-tree ) |  5
-[ 剑指 Offer 22. 链表中倒数第k个节点 ] ( https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof ) |  5
-[ 2. 两数相加 ] ( https://leetcode-cn.com/problems/add-two-numbers ) |  5
-[ 88. 合并两个有序数组 ] ( https://leetcode-cn.com/problems/merge-sorted-array ) |  5
-[ 补充题4. 手撕快速排序 ] ( https://leetcode-cn.com/problems/sort-an-array ) |  5
-[ 21. 合并两个有序链表 ] ( https://leetcode-cn.com/problems/merge-two-sorted-lists ) |  5
-[ 179. 最大数 ] ( https://leetcode-cn.com/problems/largest-number ) |  4
-[ 136. 只出现一次的数字 ] ( https://leetcode-cn.com/problems/single-number ) |  4
-[ 14. 最长公共前缀 ] ( https://leetcode-cn.com/problems/longest-common-prefix ) |  4
-[ 3. 无重复字符的最长子串 ] ( https://leetcode-cn.com/problems/longest-substring-without-repeating-characters ) |  4
-[ 110. 平衡二叉树 ] ( https://leetcode-cn.com/problems/balanced-binary-tree ) |  4
-[ 34. 在排序数组中查找元素的第一个和最后一个位置 ] ( https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array ) |  4
-[ 146. LRU缓存机制 ] ( https://leetcode-cn.com/problems/lru-cache ) |  4
-[ 283. 移动零 ] ( https://leetcode-cn.com/problems/move-zeroes ) |  3
-[ 补充题5. 手撕归并排序 ] ( https://leetcode-cn.com/problems/sort-an-array ) |  3
-[ 142. 环形链表 II ] ( https://leetcode-cn.com/problems/linked-list-cycle-ii ) |  3
-[ 54. 螺旋矩阵 ] ( https://leetcode-cn.com/problems/spiral-matrix ) |  3
-[ 144. 二叉树的前序遍历 ] ( https://leetcode-cn.com/problems/binary-tree-preorder-traversal ) |  3
-[ 145. 二叉树的后序遍历 ] ( https://leetcode-cn.com/problems/binary-tree-postorder-traversal ) |  3
-[ 70. 爬楼梯 ] ( https://leetcode-cn.com/problems/climbing-stairs ) |  3
-[ 215. 数组中的第K个最大元素 ] ( https://leetcode-cn.com/problems/kth-largest-element-in-an-array ) |  3
-[ 5. 最长回文子串 ] ( https://leetcode-cn.com/problems/longest-palindromic-substring ) |  2
-[ 20. 有效的括号 ] ( https://leetcode-cn.com/problems/valid-parentheses ) |  2
-[ 19. 删除链表的倒数第N个节点 ] ( https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list ) |  2
-[ 415. 字符串相加 ] ( https://leetcode-cn.com/problems/add-strings ) |  2
-[ 349. 两个数组的交集 ] ( https://leetcode-cn.com/problems/intersection-of-two-arrays ) |  2
-[ 199. 二叉树的右视图 ] ( https://leetcode-cn.com/problems/binary-tree-right-side-view ) |  2
-[ 59. 螺旋矩阵 II ] ( https://leetcode-cn.com/problems/spiral-matrix-ii ) |  2
-[ 剑指 Offer 51. 数组中的逆序对 ] ( https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof ) |  2
-[ 278. 第一个错误的版本 ] ( https://leetcode-cn.com/problems/first-bad-version ) |  2
-[ 405. 数字转换为十六进制数 ] ( https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal ) |  2
-[ 82. 删除排序链表中的重复元素 II ] ( https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii ) |  2
-[ 117. 填充每个节点的下一个右侧节点指针 II ] ( https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii ) |  2
-[ 79. 单词搜索 ] ( https://leetcode-cn.com/problems/word-search ) |  1
-[ 350. 两个数组的交集 II ] ( https://leetcode-cn.com/problems/intersection-of-two-arrays-ii ) |  1
-[ 513. 找树左下角的值 ] ( https://leetcode-cn.com/problems/find-bottom-left-tree-value ) |  1
-[ 224. 基本计算器 ] ( https://leetcode-cn.com/problems/basic-calculator ) |  1
-[ 23. 合并K个排序链表 ] ( https://leetcode-cn.com/problems/merge-k-sorted-lists ) |  1
-[ 72. 编辑距离 ] ( https://leetcode-cn.com/problems/edit-distance ) |  1
-[ 69. x 的平方根 ] ( https://leetcode-cn.com/problems/sqrtx ) |  1
-[ 125. 验证回文串 ] ( https://leetcode-cn.com/problems/valid-palindrome ) |  1
-[ 378. 有序矩阵中第K小的元素 ] ( https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix ) |  1
-[ 718. 最长重复子数组 ] ( https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray ) |  1
-[ 154. 寻找旋转排序数组中的最小值 II ] ( https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii ) |  1
-[ 114. 二叉树展开为链表 ] ( https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list ) |  1
-[ 105. 从前序与中序遍历序列构造二叉树 ] ( https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal ) |  1
-[ 295. 数据流的中位数 ] ( https://leetcode-cn.com/problems/find-median-from-data-stream ) |  1
-[ 剑指 Offer 54. 二叉搜索树的第k大节点 ] ( https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof ) |  1
-[ 230. 二叉搜索树中第K小的元素 ] ( https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst ) |  1
-[ 42. 接雨水 ] ( https://leetcode-cn.com/problems/trapping-rain-water ) |  1
-[ 153. 寻找旋转排序数组中的最小值 ] ( https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array ) |  1
-[ 167. 两数之和 II - 输入有序数组 ] ( https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted ) |  1
-[ 191. 位1的个数 ] ( https://leetcode-cn.com/problems/number-of-1-bits ) |  1
-[ 647. 回文子串 ] ( https://leetcode-cn.com/problems/palindromic-substrings ) |  1
-[ 168. Excel表列名称 ] ( https://leetcode-cn.com/problems/excel-sheet-column-title ) |  1
-[ 113. 路径总和 II ] ( https://leetcode-cn.com/problems/path-sum-ii ) |  1
-[ 162. 寻找峰值 ] ( https://leetcode-cn.com/problems/find-peak-element ) |  1
-[ 300. 最长上升子序列 ] ( https://leetcode-cn.com/problems/longest-increasing-subsequence ) |  1
-[ 877. 石子游戏 ] ( https://leetcode-cn.com/problems/stone-game ) |  1
-[ 138. 复制带随机指针的链表 ] ( https://leetcode-cn.com/problems/copy-list-with-random-pointer ) |  1
-[ 剑指 Offer 62. 圆圈中最后剩下的数字 ] ( https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof ) |  1
-[ 98. 验证二叉搜索树 ] ( https://leetcode-cn.com/problems/validate-binary-search-tree ) |  1
-[ 121. 买卖股票的最佳时机 ] ( https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock ) |  1
-[ 402. 移掉K位数字 ] ( https://leetcode-cn.com/problems/remove-k-digits ) |  1
-[ 剑指 Offer 31. 栈的压入、弹出序列 ] ( https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof ) |  1
-[ 208. 实现 Trie (前缀树) ] ( https://leetcode-cn.com/problems/implement-trie-prefix-tree ) |  1
-[ 680. 验证回文字符串 Ⅱ ] ( https://leetcode-cn.com/problems/valid-palindrome-ii ) |  1
-[ 528. 按权重随机选择 ] ( https://leetcode-cn.com/problems/random-pick-with-weight ) |  1
-[ 443. 压缩字符串 ] ( https://leetcode-cn.com/problems/string-compression ) |  1
-[ 139. 单词拆分 ] ( https://leetcode-cn.com/problems/word-break ) |  1
-[ 225. 用队列实现栈 ] ( https://leetcode-cn.com/problems/implement-stack-using-queues ) |  1
-[ 547. 省份数量（原朋友圈） ] ( https://leetcode-cn.com/problems/number-of-provinces ) |  1
-[ 41. 缺失的第一个正数 ] ( https://leetcode-cn.com/problems/first-missing-positive ) |  1
-[ 83. 删除排序链表中的重复元素 ] ( https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list ) |  1
-[ 915. 分割数组 ] ( https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals ) |  1
-[ 92. 反转链表 II ] ( https://leetcode-cn.com/problems/reverse-linked-list-ii ) |  1
-[ 97. 交错字符串 ] ( https://leetcode-cn.com/problems/interleaving-string ) |  1
-[ 227. 基本计算器 II ] ( https://leetcode-cn.com/problems/basic-calculator-ii ) |  1
-[ 169. 多数元素 ] ( https://leetcode-cn.com/problems/majority-element ) |  1
-[ 26. 删除排序数组中的重复项 ] ( https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array ) |  1
-[ 239. 滑动窗口最大值 ] ( https://leetcode-cn.com/problems/sliding-window-maximum ) |  1
-[ 369. 给单链表加一 ] ( https://leetcode-cn.com/problems/plus-one-linked-list ) |  1
-[ 151. 翻转字符串里的单词 ] ( https://leetcode-cn.com/problems/reverse-words-in-a-string ) |  1
-[ 剑指 Offer 03. 数组中重复的数字 ] ( https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof ) |  1
-[ 101. 对称二叉树 ] ( https://leetcode-cn.com/problems/symmetric-tree ) |  1
-[ 62. 不同路径 ] ( https://leetcode-cn.com/problems/unique-paths ) |  1
-
+[ 160. 相交链表 ]( https://leetcode-cn.com/problems/intersection-of-two-linked-lists ) |  11
+[ 704. 二分查找 ]( https://leetcode-cn.com/problems/binary-search ) |  9
+[ 1. 两数之和 ]( https://leetcode-cn.com/problems/two-sum ) |  8
+[ 232. 用栈实现队列 ]( https://leetcode-cn.com/problems/implement-queue-using-stacks ) |  8
+[ 206. 反转链表 ]( https://leetcode-cn.com/problems/reverse-linked-list ) |  7
+[ 141. 环形链表 ]( https://leetcode-cn.com/problems/linked-list-cycle ) |  6
+[ 94. 二叉树的中序遍历 ]( https://leetcode-cn.com/problems/binary-tree-inorder-traversal ) |  6
+[ 15. 三数之和 ]( https://leetcode-cn.com/problems/3sum ) |  5
+[ 102. 二叉树的层序遍历 ]( https://leetcode-cn.com/problems/binary-tree-level-order-traversal ) |  5
+[ 53. 最大子序和 ]( https://leetcode-cn.com/problems/maximum-subarray ) |  5
+[ 剑指 Offer 10- I. 斐波那契数列 ]( https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof ) |  5
+[ 226. 翻转二叉树 ]( https://leetcode-cn.com/problems/invert-binary-tree ) |  5
+[ 剑指 Offer 22. 链表中倒数第k个节点 ]( https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof ) |  5
+[ 2. 两数相加 ]( https://leetcode-cn.com/problems/add-two-numbers ) |  5
+[ 88. 合并两个有序数组 ]( https://leetcode-cn.com/problems/merge-sorted-array ) |  5
+[ 补充题4. 手撕快速排序 ]( https://leetcode-cn.com/problems/sort-an-array ) |  5
+[ 21. 合并两个有序链表 ]( https://leetcode-cn.com/problems/merge-two-sorted-lists ) |  5
+[ 179. 最大数 ]( https://leetcode-cn.com/problems/largest-number ) |  4
+[ 136. 只出现一次的数字 ]( https://leetcode-cn.com/problems/single-number ) |  4
+[ 14. 最长公共前缀 ]( https://leetcode-cn.com/problems/longest-common-prefix ) |  4
+[ 3. 无重复字符的最长子串 ]( https://leetcode-cn.com/problems/longest-substring-without-repeating-characters ) |  4
+[ 110. 平衡二叉树 ]( https://leetcode-cn.com/problems/balanced-binary-tree ) |  4
+[ 34. 在排序数组中查找元素的第一个和最后一个位置 ]( https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array ) |  4
+[ 146. LRU缓存机制 ]( https://leetcode-cn.com/problems/lru-cache ) |  4
+[ 283. 移动零 ]( https://leetcode-cn.com/problems/move-zeroes ) |  3
+[ 补充题5. 手撕归并排序 ]( https://leetcode-cn.com/problems/sort-an-array ) |  3
+[ 142. 环形链表 II ]( https://leetcode-cn.com/problems/linked-list-cycle-ii ) |  3
+[ 54. 螺旋矩阵 ]( https://leetcode-cn.com/problems/spiral-matrix ) |  3
+[ 144. 二叉树的前序遍历 ]( https://leetcode-cn.com/problems/binary-tree-preorder-traversal ) |  3
+[ 145. 二叉树的后序遍历 ]( https://leetcode-cn.com/problems/binary-tree-postorder-traversal ) |  3
+[ 70. 爬楼梯 ]( https://leetcode-cn.com/problems/climbing-stairs ) |  3
+[ 215. 数组中的第K个最大元素 ]( https://leetcode-cn.com/problems/kth-largest-element-in-an-array ) |  3
+[ 5. 最长回文子串 ]( https://leetcode-cn.com/problems/longest-palindromic-substring ) |  2
+[ 20. 有效的括号 ]( https://leetcode-cn.com/problems/valid-parentheses ) |  2
+[ 19. 删除链表的倒数第N个节点 ]( https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list ) |  2
+[ 415. 字符串相加 ]( https://leetcode-cn.com/problems/add-strings ) |  2
+[ 349. 两个数组的交集 ]( https://leetcode-cn.com/problems/intersection-of-two-arrays ) |  2
+[ 199. 二叉树的右视图 ]( https://leetcode-cn.com/problems/binary-tree-right-side-view ) |  2
+[ 59. 螺旋矩阵 II ]( https://leetcode-cn.com/problems/spiral-matrix-ii ) |  2
+[ 剑指 Offer 51. 数组中的逆序对 ]( https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof ) |  2
+[ 278. 第一个错误的版本 ]( https://leetcode-cn.com/problems/first-bad-version ) |  2
+[ 405. 数字转换为十六进制数 ]( https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal ) |  2
+[ 82. 删除排序链表中的重复元素 II ]( https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii ) |  2
+[ 117. 填充每个节点的下一个右侧节点指针 II ]( https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii ) |  2
+[ 79. 单词搜索 ]( https://leetcode-cn.com/problems/word-search ) |  1
+[ 350. 两个数组的交集 II ]( https://leetcode-cn.com/problems/intersection-of-two-arrays-ii ) |  1
+[ 513. 找树左下角的值 ]( https://leetcode-cn.com/problems/find-bottom-left-tree-value ) |  1
+[ 224. 基本计算器 ]( https://leetcode-cn.com/problems/basic-calculator ) |  1
+[ 23. 合并K个排序链表 ]( https://leetcode-cn.com/problems/merge-k-sorted-lists ) |  1
+[ 72. 编辑距离 ]( https://leetcode-cn.com/problems/edit-distance ) |  1
+[ 69. x 的平方根 ]( https://leetcode-cn.com/problems/sqrtx ) |  1
+[ 125. 验证回文串 ]( https://leetcode-cn.com/problems/valid-palindrome ) |  1
+[ 378. 有序矩阵中第K小的元素 ]( https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix ) |  1
+[ 718. 最长重复子数组 ]( https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray ) |  1
+[ 154. 寻找旋转排序数组中的最小值 II ]( https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii ) |  1
+[ 114. 二叉树展开为链表 ]( https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list ) |  1
+[ 105. 从前序与中序遍历序列构造二叉树 ]( https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal ) |  1
+[ 295. 数据流的中位数 ]( https://leetcode-cn.com/problems/find-median-from-data-stream ) |  1
+[ 剑指 Offer 54. 二叉搜索树的第k大节点 ]( https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof ) |  1
+[ 230. 二叉搜索树中第K小的元素 ]( https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst ) |  1
+[ 42. 接雨水 ]( https://leetcode-cn.com/problems/trapping-rain-water ) |  1
+[ 153. 寻找旋转排序数组中的最小值 ]( https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array ) |  1
+[ 167. 两数之和 II - 输入有序数组 ]( https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted ) |  1
+[ 191. 位1的个数 ]( https://leetcode-cn.com/problems/number-of-1-bits ) |  1
+[ 647. 回文子串 ]( https://leetcode-cn.com/problems/palindromic-substrings ) |  1
+[ 168. Excel表列名称 ]( https://leetcode-cn.com/problems/excel-sheet-column-title ) |  1
+[ 113. 路径总和 II ]( https://leetcode-cn.com/problems/path-sum-ii ) |  1
+[ 162. 寻找峰值 ]( https://leetcode-cn.com/problems/find-peak-element ) |  1
+[ 300. 最长上升子序列 ]( https://leetcode-cn.com/problems/longest-increasing-subsequence ) |  1
+[ 877. 石子游戏 ]( https://leetcode-cn.com/problems/stone-game ) |  1
+[ 138. 复制带随机指针的链表 ]( https://leetcode-cn.com/problems/copy-list-with-random-pointer ) |  1
+[ 剑指 Offer 62. 圆圈中最后剩下的数字 ]( https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof ) |  1
+[ 98. 验证二叉搜索树 ]( https://leetcode-cn.com/problems/validate-binary-search-tree ) |  1
+[ 121. 买卖股票的最佳时机 ]( https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock ) |  1
+[ 402. 移掉K位数字 ]( https://leetcode-cn.com/problems/remove-k-digits ) |  1
+[ 剑指 Offer 31. 栈的压入、弹出序列 ]( https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof ) |  1
+[ 208. 实现 Trie (前缀树) ]( https://leetcode-cn.com/problems/implement-trie-prefix-tree ) |  1
+[ 680. 验证回文字符串 Ⅱ ]( https://leetcode-cn.com/problems/valid-palindrome-ii ) |  1
+[ 528. 按权重随机选择 ]( https://leetcode-cn.com/problems/random-pick-with-weight ) |  1
+[ 443. 压缩字符串 ]( https://leetcode-cn.com/problems/string-compression ) |  1
+[ 139. 单词拆分 ]( https://leetcode-cn.com/problems/word-break ) |  1
+[ 225. 用队列实现栈 ]( https://leetcode-cn.com/problems/implement-stack-using-queues ) |  1
+[ 547. 省份数量（原朋友圈） ]( https://leetcode-cn.com/problems/number-of-provinces ) |  1
+[ 41. 缺失的第一个正数 ]( https://leetcode-cn.com/problems/first-missing-positive ) |  1
+[ 83. 删除排序链表中的重复元素 ]( https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list ) |  1
+[ 915. 分割数组 ]( https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals ) |  1
+[ 92. 反转链表 II ]( https://leetcode-cn.com/problems/reverse-linked-list-ii ) |  1
+[ 97. 交错字符串 ]( https://leetcode-cn.com/problems/interleaving-string ) |  1
+[ 227. 基本计算器 II ]( https://leetcode-cn.com/problems/basic-calculator-ii ) |  1
+[ 169. 多数元素 ]( https://leetcode-cn.com/problems/majority-element ) |  1
+[ 26. 删除排序数组中的重复项 ]( https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array ) |  1
+[ 239. 滑动窗口最大值 ]( https://leetcode-cn.com/problems/sliding-window-maximum ) |  1
+[ 369. 给单链表加一 ]( https://leetcode-cn.com/problems/plus-one-linked-list ) |  1
+[ 151. 翻转字符串里的单词 ]( https://leetcode-cn.com/problems/reverse-words-in-a-string ) |  1
+[ 剑指 Offer 03. 数组中重复的数字 ]( https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof ) |  1
+[ 101. 对称二叉树 ]( https://leetcode-cn.com/problems/symmetric-tree ) |  1
+[ 62. 不同路径 ]( https://leetcode-cn.com/problems/unique-paths ) |  1
