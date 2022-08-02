@@ -131,14 +131,14 @@ DP 问题可能很难掌握，而提高它们的最佳方法是......你猜对�
 断字| 中等的| [关联](https://leetcode.cn/problems/word-break/)  
 
 ## 新加披shopee算法题
-题目|频度
----|---|
-[ 160. 相交链表 ]( https://leetcode-cn.com/problems/intersection-of-two-linked-lists ) |  11
-[ 704. 二分查找 ]( https://leetcode-cn.com/problems/binary-search ) |  9
-[ 1. 两数之和 ]( https://leetcode-cn.com/problems/two-sum ) |  8
-[ 232. 用栈实现队列 ]( https://leetcode-cn.com/problems/implement-queue-using-stacks ) |  8
-[ 206. 反转链表 ]( https://leetcode-cn.com/problems/reverse-linked-list ) |  7
-[ 141. 环形链表 ]( https://leetcode-cn.com/problems/linked-list-cycle ) |  6
+题目|频度|完成时间
+---|---|---|
+[ 160. 相交链表 ]( https://leetcode-cn.com/problems/intersection-of-two-linked-lists ) |  11|  2022年8月2日
+[ 704. 二分查找 ]( https://leetcode-cn.com/problems/binary-search ) |  9|  2022年8月2日
+[ 1. 两数之和 ]( https://leetcode-cn.com/problems/two-sum ) |  8|  2022年8月2日
+[ 232. 用栈实现队列 ]( https://leetcode-cn.com/problems/implement-queue-using-stacks ) |  8|  2022年8月2日
+[ 206. 反转链表 ]( https://leetcode-cn.com/problems/reverse-linked-list ) |  7|  2022年8月2日
+[ 141. 环形链表 ]( https://leetcode-cn.com/problems/linked-list-cycle ) |  6|  2022年8月2日
 [ 94. 二叉树的中序遍历 ]( https://leetcode-cn.com/problems/binary-tree-inorder-traversal ) |  6
 [ 15. 三数之和 ]( https://leetcode-cn.com/problems/3sum ) |  5
 [ 102. 二叉树的层序遍历 ]( https://leetcode-cn.com/problems/binary-tree-level-order-traversal ) |  5
