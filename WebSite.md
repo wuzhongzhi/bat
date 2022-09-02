@@ -39,6 +39,15 @@ SRP 单一职责原则 OCP 开闭原则 LSP 里氏替换原则 ISP 接口隔离�
 
 ```
 #### [数据库全量SQL分析与审计系统性能优化之旅](https://mp.weixin.qq.com/s/g2VD9SK0xq8R8biG2HyUfw)
+背景：对MySQL流量进行全量分析
+现状：rds-agent 抓取访问数据 同机房通过Log-agent 将日志写到 kafka storm 分析攻击事件 持久化到hive中
+问题：高QPS下丢失率、cpu较高
+改进：
+1.分析架构找出瓶颈2.worker机制及时下线过期链接3.协议优化可以采用thrift4.go的pprof进行cpu画像分析5.缩短流程链路6.降低cpu切换频率（手动触发）7.垃圾回收可以分配池化池、或者mmap直接申请内存 8.对于空包直接过滤，分析mysql数据包 payload_length 为空的过过滤
+特点1：ip[2:2] - ((ip[0] & 0x0f) << 2) - ((tcp[12:1] & 0xf0) >> 2) >= 4
+特点2： (dst host {localIP} and dst port 3306 and (tcp[(((tcp[12:1] & 0xf0) >> 2) + 3)] <= 0x01))
+规划：
+改造优化MySQL 内核方式输出全量SQL 和 sql 端到端 追踪补齐
 
 #### [基于AI算法的数据库异常监测系统的设计与实现](https://mp.weixin.qq.com/s/EUPREu-SRGJwqTWWeDlvxw)
 
