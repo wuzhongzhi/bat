@@ -38,3 +38,19 @@ SRP 单一职责原则 OCP 开闭原则 LSP 里氏替换原则 ISP 接口隔离�
 提供开发者平台，打造良性组件运营生态
 
 ```
+#### [数据库全量SQL分析与审计系统性能优化之旅](https://mp.weixin.qq.com/s/g2VD9SK0xq8R8biG2HyUfw)
+
+#### [基于AI算法的数据库异常监测系统的设计与实现](https://mp.weixin.qq.com/s/EUPREu-SRGJwqTWWeDlvxw)
+
+#### [Replication（上）：常见的复制模型&分布式系统的挑战](https://mp.weixin.qq.com/s/LB5SR4ypQwDxzueI1ai2Kg)
+
+#### [Replication（下）：事务，一致性与共识](https://mp.weixin.qq.com/s/O9Z5e_BzdxKcULHigYMkRg)
+
+#### [美团搜索粗排优化的探索与实践](https://mp.weixin.qq.com/s/u3sw_PatpwkFC0AtkssmPA)
+
+#### [Kafka在美团数据平台的实践](https://mp.weixin.qq.com/s/waVLtusovUkVDt7rKCcdDg)
+
+#### [日志导致线程Block的这些坑，你不得不防](https://mp.weixin.qq.com/s/nowNpIOHBFHD0pctcKr2UA)
+
+#### [可视化全链路日志追踪](https://mp.weixin.qq.com/s/Er4-X8q5MKZZUgAUHyeLwA)
+
