@@ -1,0 +1,9 @@
+【Spring】：springboot自动装配原理
+在Spring Boot中，自动装配是通过@EnableAutoConfiguration实现的。
+具体来说，它通过在classpath下扫描META-INF/spring.factories文件，
+加载对应的自动配置类并进行实例化，最终将这些自动配置类加入到Spring容器中。
+每个自动配置类都有一个或多个条件（@Conditional注解），
+当条件满足时，自动配置类才会被实例化并加入到容器中。
+这样，Spring Boot能够根据应用程序的配置和环境自动选择需要的配置，
+从而简化了应用程序的配置和部署。
+微信公众号关注科技青莲获取面试资料

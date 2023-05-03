@@ -1,0 +1,23 @@
+【Spring面试题】：1.谈谈Spring IOC得理解，原理与实现
+Spring IOC（Inversion of Control，控制反转）是一种设计模式，
+也是 Spring 框架的核心思想之一，它通过将对象的创建、依赖注入等过程交给容器来管理，
+从而实现了组件之间的松耦合，提高了代码的可重用性和可测试性。
+
+Spring IOC 的原理是通过 BeanFactory 或者 ApplicationContext 容器来管理 Bean，
+当应用程序需要使用某个 Bean 时，容器会自动为其创建一个实例，
+并且将该实例注入到需要使用它的地方。
+
+实现 Spring IOC 的主要步骤包括：
+配置文件中定义 Bean 的元数据（如 class、id、scope 等）。
+通过反射机制实例化 Bean。
+将实例化的 Bean 注册到容器中，并根据配置的 scope 创建相应的实例。
+如果该 Bean 存在依赖关系，容器将自动为其注入相应的依赖。
+当应用程序需要使用某个 Bean 时，容器将该 Bean 的实例返回。
+Spring IOC 实现的关键在于依赖注入（DI，Dependency Injection），
+它通过将对象所需的依赖关系交由容器来处理，实现了对象之间的解耦。
+Spring IOC 容器负责创建 Bean 对象和管理 Bean 对象之间的依赖关系，
+开发人员只需定义 Bean 的配置信息，
+Spring IOC 容器就可以根据这些信息自动完成 Bean 的创建和依赖注入等操作。
+依赖关系
+返回生成的bean
+微信公众号关注科技青莲获取面试资料

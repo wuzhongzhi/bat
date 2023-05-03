@@ -1,0 +1,13 @@
+【Spring面试题】：4.Spring是如何解决循环依赖的问题的
+Spring容器创建一个bean实例并完成属性注入和初始化。
+如果这个bean实例的作用域是prototype，Spring会检查当前bean是否存在于第三级缓存中，
+如果存在，则直接从第三级缓存中获取bean实例并返回；如果不存在，则继续执行下一步。
+Spring会检查当前bean是否存在于第二级缓存中，
+如果存在，则直接从第二级缓存中获取bean实例并返回；如果不存在，则继续执行下一步。
+Spring会检查当前bean是否存在于第一级缓存中，
+如果存在，则直接从第一级缓存中获取bean实例并返回；如果不存在，则继续执行下一步。
+Spring会创建一个新的bean实例，并将这个实例放入第一级缓存中。
+Spring会执行所有的BeanPostProcessor的postProcessAfterInitialization()方法，
+最终返回这个bean实例。
+如果这个bean实例的作用域是prototype，Spring会将这个bean实例放入第三级缓存中。
+微信公众号关注科技青莲获取面试资料

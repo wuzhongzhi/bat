@@ -1,0 +1,11 @@
+【Spring】：Spring支持的bean作用域有哪些
+单例（Singleton）：在整个应用中，只创建 Bean 的一个实例。
+原型（Prototype）：每次注入或者通过 Spring 应用上下文获取 Bean 时，
+都会创建一个新的 Bean 实例。
+会话（Session）：在 Web 应用中，为每个会话创建一个 Bean 实例。
+在 Servlet Web 应用中，会话作用域是基于 HttpSession 的。
+请求（Request）：在 Web 应用中，为每个请求创建一个 Bean 实例。
+在 Servlet Web 应用中，请求作用域是基于 HttpServletRequest 的。
+全局会话（GlobalSession）：这个作用域仅仅在基于 Portlet 的 web 应用中才有意义。
+它代表 Portlet 应用的全局会话范围。在 Spring 中，需要使用 portlet:scope 这个作用域。
+微信公众号关注科技青莲获取面试资料

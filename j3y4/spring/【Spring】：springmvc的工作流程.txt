@@ -1,0 +1,12 @@
+【Spring】：springmvc的工作流程
+客户端发起请求，请求被 DispatcherServlet 拦截。
+DispatcherServlet 根据请求的 URL 查找对应的 HandlerMapping，找到处理该请求的 Controller。
+HandlerAdapter 适配该请求的 Controller，执行请求并返回 ModelAndView 对象。
+DispatcherServlet 根据 ModelAndView 对象渲染视图，并返回给客户端。
+在这个过程中，使用了一些核心组件：
+DispatcherServlet：前端控制器，中心控制器，负责协调整个流程。
+HandlerMapping：根据请求的 URL 查找对应的 Controller。
+HandlerAdapter：适配请求的 Controller，让其可以被调用。
+Controller：业务处理组件，对请求进行处理，并返回 ModelAndView 对象。
+ViewResolver：根据 ModelAndView 对象解析视图，并渲染视图返回给客户端。
+微信公众号关注科技青莲获取面试资料

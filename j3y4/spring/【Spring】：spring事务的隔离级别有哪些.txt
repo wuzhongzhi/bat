@@ -1,0 +1,9 @@
+【Spring】：spring事务的隔离级别有哪些
+Spring 支持以下五种事务隔离级别：
+READ_UNCOMMITTED、READ_COMMITTED、REPEATABLE_READ、
+SERIALIZABLE 和 DEFAULT（使用数据库的默认隔离级别）。
+不同的隔离级别具有不同的特点和适用场景，
+例如 READ_UNCOMMITTED 允许脏读，
+但是可以获得更高的并发性能，
+而 SERIALIZABLE 可以保证数据的完整性，但是并发性能较低。
+微信公众号关注科技青莲获取面试资料

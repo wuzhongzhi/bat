@@ -1,0 +1,12 @@
+【Spring】：spring是如何简化开发的
+依赖注入：通过IOC容器，将对象的创建和相互之间的依赖关系的管理，
+由程序员转移到Spring容器中，简化了对象的创建和管理，降低了组件之间的耦合性。
+面向切面编程：通过AOP（Aspect-Oriented Programming）实现对横切关注点的封装，
+简化了代码的重复性，提高了代码的可维护性。
+数据访问：提供了ORM框架（比如Hibernate、MyBatis）的整合支持，
+使得与数据库的交互更加简单、高效。
+Web开发：提供了Spring MVC框架，帮助开发者更容易地构建Web应用程序
+，同时也提供了RESTful Web Services支持，帮助开发者更快速地开发RESTful风格的Web服务。
+集成第三方框架：Spring提供了对多个第三方框架的整合支持，
+例如JPA、JMS、Quartz等，简化了开发者对这些框架的使用。
+微信公众号关注科技青莲获取面试资料

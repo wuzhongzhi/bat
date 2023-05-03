@@ -1,0 +1,13 @@
+【Spring】：BeanFactory和ApplicationContext的区别
+加载方式：BeanFactory是使用Lazy-Loading的方式来加载Bean对象的，
+只有在需要使用Bean对象的时候才会去创建，
+而ApplicationContext是在容器启动时就一次性地创建了所有的Bean对象。
+配置文件：BeanFactory只支持基本的XML配置文件，
+而ApplicationContext支持多种配置文件格式，如XML、JavaConfig、Properties等。
+功能扩展：ApplicationContext继承了BeanFactory的所有功能，
+并且还提供了其他的一些功能，比如AOP、国际化、事件机制、消息机制等。
+性能：由于BeanFactory是在需要使用Bean对象的时候才会去创建，
+所以启动速度比ApplicationContext要快，
+但是对于大规模应用来说，ApplicationContext的性能更高，
+因为它可以将Bean对象的创建、依赖注入等操作都预先执行，而不需要每次都去执行。
+微信公众号关注科技青莲获取面试资料

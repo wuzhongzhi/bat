@@ -1,0 +1,15 @@
+【Spring面试题】：6.Bean Factory与FactoryBean有什么区别
+BeanFactory是Spring中最基础的容器，负责加载Bean的定义信息，创建Bean实例，
+管理Bean之间的依赖关系和生命周期。
+BeanFactory是Spring的核心接口之一，也是Spring IoC的基础。
+
+而FactoryBean是一个接口，用于创建复杂的Bean对象，
+这些Bean对象的创建过程可能比较繁琐或者需要特殊的处理。
+FactoryBean定义了一种创建Bean的方式，通过实现FactoryBean接口，
+开发者可以自定义Bean的创建过程，使得Spring容器可以通过FactoryBean创建复杂的Bean对象。
+在Spring容器中，FactoryBean也是一种特殊的Bean，可以被其他Bean依赖和引用。
+
+因此，BeanFactory是Spring IoC容器的基础，
+而FactoryBean是一个工厂接口，用于创建复杂的Bean对象。
+FactoryBean可以被BeanFactory所管理。
+微信公众号关注科技青莲获取面试资料
