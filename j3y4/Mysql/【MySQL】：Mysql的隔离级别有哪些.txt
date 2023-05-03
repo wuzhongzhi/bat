@@ -1,0 +1,8 @@
+【MySQL】：Mysql的隔离级别有哪些？
+SQL 标准定义了四种隔离级别，这四种隔离级别分别是：
+读未提交（READ UNCOMMITTED）；
+读提交 （READ COMMITTED）；
+可重复读 （REPEATABLE READ）；
+串行化 （SERIALIZABLE）。
+事务隔离是为了解决脏读、不可重复读、幻读问题
+微信公众号关注科技青莲获取面试资料

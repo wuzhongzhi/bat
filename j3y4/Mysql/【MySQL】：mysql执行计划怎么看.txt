@@ -1,0 +1,10 @@
+【MySQL】：mysql执行计划怎么看？
+MySQL的执行计划是通过使用EXPLAIN命令来查看的。执行以下语法即可：
+sql
+EXPLAIN SELECT column1, column2 FROM table_name WHERE condition;
+这将返回一个包含查询优化器使用的执行计划的结果集。
+在执行计划中，可以看到MySQL如何处理查询，并且可以根据这些信息进行优化。
+在执行计划中，可以看到使用的索引、连接类型、扫描行数等等信息，
+这些信息对于确定查询性能问题非常有用。可以使用EXPLAIN EXTENDED命令查看更多信息
+例如实际使用的索引和参考键的信息。
+微信公众号关注科技青莲获取面试资料

@@ -1,0 +1,11 @@
+【MySQL】：简述myisam和innodb的区别
+数据类型支持：MyISAM支持TEXT和BLOB类型的列，而InnoDB对这些列有长度限制。
+另外，MyISAM不支持外键约束，而InnoDB支持。
+事务支持：MyISAM不支持事务，而InnoDB支持事务和行级锁。
+并发性能：MyISAM采用表级锁，因此在高并发情况下会有较大的性能瓶颈，
+而InnoDB采用行级锁，在高并发情况下能够提供更好的性能。
+崩溃恢复：MyISAM在崩溃后需要执行修复操作，而InnoDB有崩溃恢复机制，能够自动恢复。
+索引支持：MyISAM采用B+树索引结构，而InnoDB采用聚簇索引和辅助索引。
+缓存管理：MyISAM采用key缓存和table缓存，而InnoDB采用缓冲池机制，
+支持自适应哈希索引和预读操作。
+微信公众号关注科技青莲获取面试资料
