@@ -1,0 +1,11 @@
+【JVM面试题】：打破双亲委派机制
+打破双亲委派机制可以通过以下方式实现：
+自定义类加载器：使用自定义的类加载器来加载类，可以打破双亲委派机制。
+自定义类加载器可以继承ClassLoader类，并覆盖findClass()方法来实现自定义的类加载逻辑。
+线程上下文类加载器：使用线程上下文类加载器(Thread Context ClassLoader)来加载类，
+也可以打破双亲委派机制。
+线程上下文类加载器可以在代码中通过
+Thread.currentThread().setContextClassLoader(ClassLoader cl)来设置，
+然后在代码中使用Thread.currentThread().getContextClassLoader()来获取。
+需要注意的是，打破双亲委派机制可能会带来一些潜在的问题，如类的重复
+微信公众号关注科技青莲获取面试资料

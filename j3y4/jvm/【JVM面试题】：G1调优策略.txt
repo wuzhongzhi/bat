@@ -1,0 +1,15 @@
+【JVM面试题】：G1调优策略
+-XX:+UseG1GC：启用G1垃圾回收器。
+-XX:G1HeapRegionSize=n：指定G1堆区域大小为n字节。
+-XX:MaxGCPauseMillis=n：指定G1的最大停顿时间为n毫秒。
+-XX:InitiatingHeapOccupancyPercent=n：指定G1在堆被占用到n%时开始执行垃圾回收。
+-XX:G1ReservePercent=n：指定G1保留用于未分配的内存的百分比为n%。
+-XX:G1HeapWastePercent=n：指定G1允许的废物比例，即可以被回收的堆内存比例，为n%。
+-XX:ConcGCThreads=n：指定并发GC线程的数量为n。
+-XX:G1MixedGCCountTarget=n：指定G1在执行混合GC之前收集n个Young GC。
+-XX:G1MixedGCLiveThresholdPercent=n：指定G1混合GC阶段中存活对象占整个堆的比例为n%。
+-XX:G1MixedGCCountTarget=n：指定G1在执行混合GC之前收集n个Young GC。
+这些参数可以通过在命令行中使用“-XX:”前缀来设置，例如：
+java -XX:+UseG1GC -XX:MaxGCPauseMillis=500 -Xmx4g MyApp
+这将使用G1垃圾回收器，将最大停顿时间设置为500毫秒，并将堆最大大小设置为4GB。
+微信公众号关注科技青莲获取面试资料

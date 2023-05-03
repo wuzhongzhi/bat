@@ -1,0 +1,26 @@
+【JVM面试题】：什么时候进行垃圾回收
+触发条件可以是以下之一：
+老年代空间占用达到了阈值。
+年轻代占用空间达到了一定阈值。
+晋升到老年代的对象大小超过了老年代剩余空间。
+手动调用System.gc()方法。
+在 G1 收集器中，可以通过以下参数来设置垃圾回收的阈值：
+-XX:G1HeapRegionSize=n：设置 G1 中每个 region 的大小，默认值是 1MB ~ 32MB 之间，
+取决于堆的总大小。
+-XX:InitiatingHeapOccupancyPercent=n：设置当已使用堆空间占比达到 n 时，
+开始执行 mixed gc，默认值是 45。
+-XX:G1MixedGCLiveThresholdPercent=n：设置在 mixed gc 中，
+判断一个 region 是否是存活对象区域的阈值，
+即如果一个 region 中存活对象占比超过 n%，则将其视为存活对象区域，不进行回收，默认值是 65。
+-XX:G1HeapWastePercent=n：设置当 free region 占总 region 比例达到 n 时，
+执行 mixed gc 进行 region 回收，默认值是 5。
+CMS设置阈值：
+-XX:CMSInitiatingOccupancyFraction：设置CMS收集器在老年代空间占用率达到多少时开始回收，
+默认是68%。
+-XX:+UseCMSInitiatingOccupancyOnly：该参数表示只在达到设定的阈值时才执行CMS垃圾回收，
+禁止自适应调节阈值，默认为关闭状态。
+-XX:CMSFullGCsBeforeCompaction：设置多少次CMS收集之后进行一次压缩整理，默认是0，
+即每次都进行压缩整理。
+-XX:+UseCMSCompactAtFullCollection：该参数表示在CMS收集完成后，
+对堆进行压缩整理，一定程度上减少了“碎片”的产生。该参数默认是开启的。
+微信公众号关注科技青莲获取面试资料

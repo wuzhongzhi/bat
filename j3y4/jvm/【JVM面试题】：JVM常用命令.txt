@@ -1,0 +1,12 @@
+【JVM面试题】：JVM常用命令
+java：启动Java应用程序的命令。
+javac：编译Java源文件的命令。
+javadoc：根据Java源文件生成API文档的命令。
+jar：将Java类打包为JAR文件的命令。
+jps：列出当前系统中所有Java进程的命令。
+jstat：显示JVM内部状态信息的命令。
+jmap：生成Java堆转储快照的命令。
+jstack：生成Java线程转储快照的命令。
+jcmd：发送诊断命令给正在运行的Java进程的命令。
+jrunscript：执行Java脚本的命令。
+微信公众号关注科技青莲获取面试资料

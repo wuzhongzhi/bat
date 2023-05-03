@@ -1,0 +1,15 @@
+【JVM面试题】：类加载器的层次
+Bootstrap ClassLoader：也称为引导类加载器，它是JVM的一部分，用于加载JVM自身需要的类，
+例如java.lang.Object等核心类，是JVM中加载类的起点。
+Bootstrap ClassLoader是用本地代码实现的，并不继承自java.lang.ClassLoader类，
+因此在Java代码中无法直接获取对它的引用。
+Extension ClassLoader：也称为扩展类加载器，
+它负责加载位于JDK目录下的jre/lib/ext或者由系统变量java.ext.dirs所指定的目录中的所有jar包或类。
+Extension ClassLoader是由sun.misc.Launcher$ExtClassLoader实现的，
+并且在Java代码中可以通过ClassLoader.getSystemClassLoader().getParent()获取到它的引用。
+System ClassLoader：也称为应用程序类加载器，
+它负责加载位于CLASSPATH环境变量或者通过-Xbootclasspath参数指定的所有类，
+它是Java应用程序中默认的类加载器
+System ClassLoader是由sun.misc.Launcher$AppClassLoader实现的，
+并且在Java代码中可以通过ClassLoader.getSystemClassLoader()获取到它的引用。
+微信公众号关注科技青莲获取面试资料

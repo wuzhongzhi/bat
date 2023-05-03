@@ -1,0 +1,10 @@
+【JVM面试题】：Parallel系列垃圾收集器
+Serial Old：Serial收集器的老年代版本，使用标记-整理算法，适用于单核CPU环境。
+Parallel Scavenge：基于标记-复制算法，适用于注重吞吐量的场景。
+Parallel Old：Parallel Scavenge收集器的老年代版本，也是基于标记-整理算法，
+适用于单核或多核CPU环境。
+Parallel Compacting：Parallel Old的增强版本，使用复制-整理算法，
+适用于高吞吐量和低停顿时间的场景。
+Parallel New：也是基于标记-复制算法，主要用于新生代的垃圾收集，
+配合Parallel Old使用，适用于多核CPU环境和强调吞吐量的场景。
+微信公众号关注科技青莲获取面试资料
