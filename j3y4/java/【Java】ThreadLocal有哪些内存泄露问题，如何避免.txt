@@ -1,0 +1,11 @@
+【Java】ThreadLocal有哪些内存泄露问题，如何避免？
+线程池中的线程复用可能导致 ThreadLocal 变量未能被清理干净，从而导致内存泄漏。
+具体原因是因为ThreadLocalMap中的Entry没有被及时清理，
+Entry中的Value是对ThreadLocal的弱引用，如果Value被清理了，
+那么这个ThreadLocal对应的Entry在下次访问时就会被删除，但如果Value没有被清理，
+那么这个ThreadLocal对应的Entry就会一直存在于ThreadLocalMap中，从而导致内存泄漏。
+解决方案：
+重写它的 remove() 方法来避免内存泄漏问题
+使用 Google Guava 中的 CacheBuilder 来替代 ThreadLocal，
+或者使用 Spring 的 ThreadLocal 管理器来避免内存泄漏问题。
+微信公众号关注科技青莲获取面试资料

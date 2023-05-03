@@ -1,0 +1,6 @@
+hashmap有哪些线程安全的方式？
+一、Collections.synchronizedMap()
+方法都加了synchronized代码简单，对对象进行了枷锁，效率低
+二、ConcurrentHashMap
+ConcurrentHashMap效率相对高，但是内部实现代码繁琐
+微信公众号关注科技青莲获取面试资料

@@ -1,0 +1,9 @@
+【Java】线程的sleep、wait、join、yield如何使用？
+sleep方法用于使线程进入休眠状态，暂停执行一段时间。
+使用方式为：Thread.sleep(long millis)，其中参数millis为线程休眠的毫秒数。
+wait方法用于使线程进入等待状态，直到另一个线程调用notify或notifyAll方法唤醒它。
+使用方式为：object.wait()或object.wait(long millis)，其中object为等待的对象
+join方法用于等待其他线程执行完毕再继续执行。
+使用方式为：thread.join()，其中thread为要等待的线程。
+yield方法用于使当前线程让出CPU，让其他线程先执行。使用方式为：Thread.yield()。
+微信公众号关注科技青莲获取面试资料

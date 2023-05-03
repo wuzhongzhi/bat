@@ -1,0 +1,6 @@
+Java创建线程有哪些方式？
+1.继承Thread类并重写run方法
+2.实现Runnable接口
+3.实现Callable接口并使用FutureTask
+4.使用线程池
+微信公众号关注科技青莲获取面试资料

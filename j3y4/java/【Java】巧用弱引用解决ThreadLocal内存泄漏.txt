@@ -1,0 +1,8 @@
+Java用弱引用解决ThreadLocal内存泄漏
+在使用ThreadLocal时，
+我们可以使用Java提供的InheritableThreadLocal类，
+并重写它的childValue()方法，将返回值包装成弱引用。
+当父线程和子线程都执行完ThreadLocal相关操作后，
+由于没有强引用指向ThreadLocal对象，
+所以该对象会被垃圾回收器回收，从而解决内存泄漏问题。
+微信公众号关注科技青莲获取面试资料

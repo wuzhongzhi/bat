@@ -1,0 +1,15 @@
+HashMap和HashTable的区别
+一、线程安全方面：
+HashTable用synchronized修饰线程安全，所以效率低
+HashMap线程不安全，效率高
+对Null key的支持：
+HashTable会报空指针、HashMap不会
+二、初始容量大小不一样：
+HashMap默认值16，扩容为幂次方
+HashTable默认值11，扩容为2n+1
+给定初始值的情况下，HashMap会扩容值最接近的2的幂次方
+HashTable给多少就是多少
+三、底层数据：
+hashmap在1.8之后，数组长度超过32，且链表长度超过8
+链表会转红黑树
+微信公众号关注科技青莲获取面试资料
