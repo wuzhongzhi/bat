@@ -1,0 +1,6 @@
+【分布式面试题】：10 MySQL如何做分布式锁？
+加锁：
+SELECT * FROM distributed_lock WHERE name = 'lock_name' FOR UPDATE;
+删除锁：
+DELETE FROM distributed_lock WHERE name = 'lock_name';
+微信公众号关注科技青莲获取面试资料

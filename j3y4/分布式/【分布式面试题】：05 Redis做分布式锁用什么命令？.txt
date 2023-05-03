@@ -1,0 +1,23 @@
+【分布式面试题】：05 Redis做分布式锁用什么命令？
+> SETNX lockKey uniqueValue
+(integer) 1
+> SETNX lockKey uniqueValue
+(integer) 0
+// 释放锁时，先比较锁对应的 value 值是否相等，避免锁的误释放
+if redis.call("get",KEYS[1]) == ARGV[1] then
+    return redis.call("del",KEYS[1])
+else
+    return 0
+end
+我这里以 Redisson 的分布式可重入锁 RLock 为例来说明如何使用 Redisson 实现分布式锁：
+// 1.获取指定的分布式锁对象
+RLock lock = redisson.getLock("lock");
+// 2.拿锁且不设置锁超时时间，具备 Watch Dog 自动续期机制
+lock.lock();
+// 3.执行业务
+...
+// 4.释放锁
+lock.unlock();
+// 手动给锁设置过期时间，不具备 Watch Dog 自动续期机制
+lock.lock(10, TimeUnit.SECONDS);
+微信公众号关注科技青莲获取面试资料

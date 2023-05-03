@@ -1,0 +1,15 @@
+【分布式面试题】：37 分布式架构下，Session 共享有什么方案
+Cookie 方案：在登录成功后，将 Session ID 保存在 Cookie 中，
+并在每个请求中发送该 Cookie，以便服务器识别用户。
+这种方案的好处是简单易用，但缺点是容易受到 Cookie 被窃取的攻击。
+Token 方案：在登录成功后，将 Session ID 保存在 Token 中，
+并在每个请求中发送该 Token，以便服务器识别用户。
+这种方案的好处是可以防止 Cookie 被窃取的攻击，但缺点是 Token 可能会被篡改或窃取。
+分布式缓存方案：使用像 Redis 或 Memcached 这样的分布式缓存，
+将 Session 数据存储在缓存中，并将 Session ID 保存在 Cookie 或 Token 中。
+这种方案的好处是可以支持多个应用程序实例共享 Session，
+但缺点是缓存可能会成为瓶颈，需要维护缓存一致性。
+数据库方案：将 Session 数据存储在数据库中，并将 Session ID 保存在 Cookie 或 Token 中。
+这种方案的好处是可以支持多个应用程序实例共享 Session，
+但缺点是数据库可能会成为瓶颈，需要维护数据库一致性。
+微信公众号关注科技青莲获取面试资料

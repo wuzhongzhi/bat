@@ -1,0 +1,37 @@
+【分布式面试题】：12 滑动时间窗口算法是什么？
+在滑动时间窗口算法中，数据被分成一系列的时间片段或窗口，
+每个窗口都包含了一定时间范围内的数据
+import java.util.concurrent.LinkedBlockingDeque;
+public class SlidingTimeWindow {
+    private LinkedBlockingDeque<Long> window;
+    private int windowSize; // 窗口大小，单位为毫秒
+    private long lastUpdateTime; // 上次更新时间
+    public SlidingTimeWindow(int windowSize) {
+        this.window = new LinkedBlockingDeque<>(windowSize);
+        this.windowSize = windowSize;
+        this.lastUpdateTime = System.currentTimeMillis();
+    }
+    public void add(long value) {
+        long currentTime = System.currentTimeMillis();
+        long timeInterval = currentTime - lastUpdateTime;
+        lastUpdateTime = currentTime;
+        // 检查是否需要滑动窗口
+        if (timeInterval > windowSize) {
+            int numWindows = (int) (timeInterval / windowSize);
+            for (int i = 0; i < numWindows; i++) {
+                window.removeFirst();
+            }
+        }
+        window.offer(value);
+    }
+    public double getAvg() {
+        long sum = 0;
+        int count = window.size();
+        for (Long value : window) {
+            sum += value;
+        }
+        return count == 0 ? 0 : (double) sum / count;
+    }
+}
+它可以用于网络流量分析、物联网设备监控、金融交易分析等领域。
+微信公众号关注科技青莲获取面试资料
