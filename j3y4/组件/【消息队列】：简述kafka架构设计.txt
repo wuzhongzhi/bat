@@ -1,0 +1,17 @@
+【消息队列】：简述kafka架构设计
+Topic：Kafka中所有消息的数据流是通过Topic来实现的，可以理解为一个逻辑上的发布和订阅分类。
+
+Partition：每个Topic可以分为多个Partition，每个Partition都是有序的消息队列，
+并且分布在不同的Broker上，Partition是实现Kafka高吞吐率的关键。
+
+Broker：Kafka集群中的每个服务器节点被称为Broker，每个Broker存储着多个Partition的副本。
+
+Producer：Producer负责向Broker发送消息，Producer将消息发送到指定的Topic，
+Broker根据Partition规则将消息存储到相应的Partition中。
+
+Consumer：Consumer从Broker中订阅Topic，每个Consumer会从指定的Partition中拉取数据。
+
+Zookeeper：Kafka使用Zookeeper来进行集群管理和协调。
+Zookeeper主要用于Broker、Topic、Partition的元数据管理，
+以及对生产者、消费者、Broker的状态进行监控和协调。
+微信公众号关注科技青莲获取面试资料

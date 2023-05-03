@@ -1,0 +1,6 @@
+【ZK面试题】：zk的数据模型和节点类型
+Zookeeper的数据模型是一个树形结构，每个节点都可以存储数据，类似于一个文件系统。
+分别是：持久化节点（Persistent Node）、
+持久化有序节点（Persistent Sequential Node）、
+临时节点（Ephemeral Node）和临时有序节点（Ephemeral Sequential Node）。
+微信公众号关注科技青莲获取面试资料

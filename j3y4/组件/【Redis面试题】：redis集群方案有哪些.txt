@@ -1,0 +1,14 @@
+【Redis面试题】：redis集群方案有哪些
+Redis Sentinel: Redis官方提供的高可用性方案，
+使用多个Redis实例来保证高可用性和数据的自动故障转移。
+Redis Sentinel主要用于单Redis实例的故障恢复，无法实现横向扩展。
+Redis Cluster: Redis官方提供的分布式方案，能够支持多个Redis实例的数据分片和横向扩展。
+Redis Cluster在多个节点之间分配数据，每个节点只存储其中的一部分数据。
+节点之间使用Gossip协议进行信息传播，同时支持节点的自动故障转移。
+Codis: 基于Redis Cluster的代理方案，为了简化Redis Cluster的使用和管理，
+Codis提供了一些额外的功能，如分区表自动管理、动态扩容和缩容、多集群管理等。
+Redisson: 基于Redisson客户端的Redis集群方案，支持多种分布式数据结构和分布式锁，
+并提供了一些额外的功能，如分布式调度、分布式限流等。
+Twemproxy: Twemproxy是一个开源的代理服务器，可以将多个Redis实例封装成一个虚拟节点，
+提供类似于Redis Cluster的功能，但不支持自动故障转移。
+微信公众号关注科技青莲获取面试资料
