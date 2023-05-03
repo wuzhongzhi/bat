@@ -1,0 +1,18 @@
+【微服务面试题】SringCloud和Dubbo有哪些区别
+Spring Cloud和Dubbo都是流行的分布式服务框架，二者有以下区别：
+语言支持：Dubbo是由阿里巴巴提供的Java语言的RPC框架，
+而Spring Cloud是由Spring社区提供的Java语言的微服务框架。
+生态系统：Dubbo拥有丰富的生态系统，包括注册中心（Zookeeper，Nacos等），
+监控和治理中心（Dubbo-admin，Sentinel等），
+而Spring Cloud生态系统也非常丰富，可以使用各种Spring框架和第三方插件来扩展功能。
+服务治理：Dubbo通过Zookeeper等注册中心来实现服务注册和发现，
+而Spring Cloud使用Eureka或Consul等注册中心。
+API网关：Spring Cloud提供了Zuul和Spring Cloud Gateway来实现API网关，
+而Dubbo则需要通过第三方网关（如Nginx）来实现。
+服务编排：Dubbo通过服务提供者和消费者之间的直接调用来实现服务编排，
+而Spring Cloud使用服务发现和负载均衡器来管理服务之间的调用。
+开发模式：Dubbo采用接口定义和注解方式实现服务的发布和消费，
+而Spring Cloud使用RESTful API实现服务的发布和消费。
+总的来说，Dubbo更适合企业级应用和对高可靠性要求较高的系统，
+而Spring Cloud则更适合中小型应用和快速开发。
+微信公众号关注科技青莲获取面试资料
