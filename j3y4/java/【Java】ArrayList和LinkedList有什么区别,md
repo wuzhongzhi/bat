@@ -1,0 +1,15 @@
+ArrayList和LinkedList有什么区别?
+数据结构实现：
+ArrayList 是动态数组，
+而 LinkedList 是双向链表。
+内存空间占用：
+LinkedList 比 ArrayList 更占内存，
+因为 LinkedList 还存储了两个引用，
+一个指向前一个元素一个指向后一个元素。
+增删改查的时间复杂度不一样
+增加,删除 ArrayList 最坏的情况是 o(n)
+查 LinkedList 最坏的情况是 o(n)
+使用场景不一样
+在需要频繁读取集合中的元素时，
+更推荐使用 ArrayList，
+而在插入和删除操作较多时使用 LinkedList。
